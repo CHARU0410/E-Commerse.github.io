@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formstyle.css">
+
+</head>
+<body>
+    <h>Sign up Form</h>
+    
+<form>
+
+    <table>
+       <tr><td><label>Name</label></td>
+        <td><input type="text" required><p>Enter the Name</p></tr></td> 
+       
+        
+        <tr><td><label>Primary Email</label></td>
+            
+            <td><input type="email" required><p>Enter the Mail</p>
+                <img class="valid" src="checked.png">
+                <img class="invalid" src="no.png">
+                </td></tr>
+        <tr><td><label>Secondary Email </label></td>
+        <td><input type="email" not required><p>Enter the optional mail</p></td></tr>
+        <tr><td><label>password</label></td>
+       <td><input type="password" required><p>Enter the password</p></td></tr>
+        <tr><td><label>Gender</label></td>
+       <td><input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others</td></tr>
+        <tr><td><label>Age</label></td>
+        <td><input type="number" min="18" max="100"><p>Enter the Age</p>
+        <img class="valid" src="checked.png">
+    <img class="invalid" src=no.png></td></tr>
+
+      
+        
+          </table>
+          <input type="submit">
+          
+</form>
+</body>
+</html>
+

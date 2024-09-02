@@ -1,0 +1,78 @@
+h{
+    font-size: 50px;
+    font-weight: 100;
+}
+body{
+    background-color: blue;
+}
+form{
+    border: 3px solid black;
+}
+
+input[type="radio"]:checked{
+    width: 20px;
+    height: 20px;
+}
+input[type="submit"]{
+    border:2px solid violet;
+}
+input:optional{
+    border: 2px dashed violet;
+}
+input:disabled{
+    border:2px dotted brown;
+    
+}
+input:read-only{
+    background-color: gray;
+}
+
+
+
+input:read-only{
+    background-color: gray;
+}
+input:p{
+    display: none;
+}
+p{
+    display: none;
+}
+input:hover+p{
+    display: inline;
+    background-color:green;
+    font-family: monospace;
+}
+img{
+    display:none;
+}
+input[type="Email"]:focus :valid ~img.valid{
+    display:"inline";
+    width: 18px;
+    height: 18px;
+}
+input[type="Email"]:focus :valid ~img.invalid{
+    display:"inline";
+    width: 18px;
+    height: 18px;
+}
+input[name="Age"]:fous:in-range:valid~img.valid{
+    display: inline;
+    width: 18;
+    height: 18;
+}
+
+img{
+    display: none;
+}
+input[type="Email"]:focus:valid~img.valid{
+    display: inline;
+    width: 18px;
+    height: 18px;
+}
+input[type=Email]:focus:invalid~img.invalid{
+    display: inline;
+    width: 18px;
+    height: 18px;
+
+}
